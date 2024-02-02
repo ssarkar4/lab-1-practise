@@ -1,0 +1,101 @@
+PART 1
+
+Solution 1:
+/* Name: Snehil Sarkar
+CIN: 403274973 */
+
+Solution 2:
+let base=5;
+let height=20;
+let area= 0.5*base*height;
+
+Solution 4:
+console.log(`The sum of 5 and 3 is : ${5+3}`);
+
+Solution 5:
+let age =33;
+console.log("My age is " + age + " old.");
+
+Solution 6:
+console.log("In JavaScript, we use the backslash (\\) to escape special characters.");
+Another way of doing it: console.log("In JavaScript, we use the backslash (\\) to escape special characters.");
+
+Solution 7:
+console.log(`Einstein once said: "Life is like riding a bicycle. To keep your balance, you must keep moving."`);
+
+Solution 8:
+let num1= 33;
+let num2= 22;
+console.log(`Is ${num1} greater than or equal to ${num2}? ${num1 >= num2}`);
+
+Solution 9:
+let num1= 33;
+let num2= 22;
+let result = num1 > num2 && num2 > 0;
+console.log(result);
+
+Solution 10:
+let num1= 6;
+let num2= 6;
+let result = num1 == num2 && num2 < 10;
+console.log(result);
+
+
+---------------------------------PART 2----------------------------------------------
+
+
+// Add the values from input fields
+function add() {
+  let operand1 = document.querySelector("#operand1").value;
+  let operand2 = document.querySelector("#operand2").value;
+	operand1 = parseInt(operand1);
+	operand2 = parseInt(operand2);
+	let result = 0;
+	result=operand1+operand2;
+	document.querySelector("#result").value = result;  
+}
+
+
+// Substract the values from input fields
+function substract() {
+ let operand1 = document.querySelector("#operand1").value;
+  let operand2 = document.querySelector("#operand2").value;
+	operand1 = parseInt(operand1);
+	operand2 = parseInt(operand2);
+	let result = 0;
+	result=operand1-operand2;
+	document.querySelector("#result").value = result; 
+}
+
+// Multiply the values from input fields
+function multiply() {
+   let operand1 = document.querySelector("#operand1").value;
+  let operand2 = document.querySelector("#operand2").value;
+	operand1 = parseInt(operand1);
+	operand2 = parseInt(operand2);
+	let result = 0;
+	result=operand1*operand2;
+	document.querySelector("#result").value = result;
+}
+
+// Divide the values from input fields
+function divide() {
+   let operand1 = document.querySelector("#operand1").value;
+  let operand2 = document.querySelector("#operand2").value;
+	operand1 = parseInt(operand1);
+	operand2 = parseInt(operand2);
+	let result = 0;
+	result=operand1/operand2;
+	document.querySelector("#result").value = result;
+}
+
+// Clear input fields
+function clearInput() {
+	document.querySelector("#operand1").value = "";
+	document.querySelector("#operand2").value = "";
+  document.querySelector("#result").value = "";
+}
+
+
+
+
